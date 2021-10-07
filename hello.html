@@ -61,6 +61,24 @@
     <h1>Hello, from Group1!</h1>
 
     <p>Hello from Group1!</p>
+    <body onload="typeWriter()"></body>
+<script>
+  var i = 0;
+  var txt = "hello world, my name is dee dee.";
+  var speed = 200;
+  function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").style.fontSize = "2em";
+    document.getElementById("demo").style.color = "purple";
+    document.getElementById("demo").style.fontWeight = "bold";
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+    }
+  }
+</script>
+
+<p id="demo"></p>
     </div>
 </body>
 </html>
