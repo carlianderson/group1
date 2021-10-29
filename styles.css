@@ -6,9 +6,18 @@
 body{
     background-color: rgb(240, 237, 243);
 }
+
+/*------------Header Area-----------*/
+header{
+    background-color: rgb(171, 196, 197);
+}
 .headBar{
-    margin: 20px 10px 0 auto;
     text-align: left;
+    height: 100px;
+}
+.headBar h1{
+    text-align: center;
+    padding-top: 10px;
 }
 .headBar ul{
     margin: 0 auto 0 auto;
@@ -17,8 +26,31 @@ body{
     width: 100px;
     padding: 10px;
     list-style-type: none;
+    float: left;
 }
 .headBar ul li a{
     color: black;
     text-decoration-line: none;
+}
+.wrapper{
+    margin: auto 15%;
+}
+main{
+    height: 500px;
+}
+main h1{
+    padding-top: 250px;
+    text-align: center;
+}
+.about, .members{
+    padding-left: 15px;
+    text-align: center;
+}
+.about, .members h1{
+    padding-top: 50px;
+}
+.content-about{
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
 }
