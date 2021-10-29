@@ -9,7 +9,12 @@ body{
 
 /*------------Header Area-----------*/
 header{
-    background-color: rgb(171, 196, 197);
+    
+}
+.logo{
+    width: 500px;
+    margin: auto 30%;
+    padding-top: 30px;
 }
 .headBar{
     text-align: left;
@@ -20,7 +25,8 @@ header{
     padding-top: 10px;
 }
 .headBar ul{
-    margin: 0 auto 0 auto;
+    text-align: center;
+    margin-left: 50%;
 }
 .headBar ul li{
     width: 100px;
